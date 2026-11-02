@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan a Private Jet Charter"
+  short_description: "Turn trip details into a charter quote request"
+  default_prompt: "Use $pjs-plan-charter to prepare a private jet quote request and guide me through the next step."
