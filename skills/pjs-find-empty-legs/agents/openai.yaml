@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Private Jet Empty Legs"
+  short_description: "Find current routes and listed flight prices"
+  default_prompt: "Use $pjs-find-empty-legs to find upcoming empty-leg flights that fit my route, dates, and group."
