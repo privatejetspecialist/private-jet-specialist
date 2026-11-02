@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "private-jet-specialist",
+  "version": "1.0.1",
+  "description": "Find private jet empty-leg routes, prepare charter quote requests, and compare aircraft and offers using Private Jet Specialist. Helps with booking decisions; does not reserve aircraft or take payment.",
+  "author": {
+    "name": "Private Jet Specialist",
+    "url": "https://privatejetspecialist.com/"
+  },
+  "homepage": "https://privatejetspecialist.com/",
+  "license": "MIT",
+  "keywords": [
+    "private-jet",
+    "empty-legs",
+    "charter",
+    "travel",
+    "flight-search",
+    "agent-skills"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Private Jet Specialist",
+        "shortDescription": "Charter help and empty legs",
+        "longDescription": "Search published empty-leg flights by route, dates, passengers, and budget. Prepare a clear charter trip brief, use the existing Private Jet Specialist estimate and inquiry flow, and compare quoted aircraft, costs, and terms. Three skills plus an optional read-only Python feed filter. Requires host web access for current inventory; the script also supports supplied JSON snapshots. No API key required. Listings and estimates require operator confirmation. The plugin does not reserve aircraft, make payments, or confirm bookings. Private Jet Specialist may earn a commission through its referral links.",
+        "developerName": "Private Jet Specialist",
+        "category": "Travel",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Find empty-leg flights from Tampa to New York for four people next week.",
+          "Help me prepare a round-trip private jet quote request with two dogs.",
+          "Compare these charter quotes for cost, aircraft fit, and cancellation terms."
+        ],
+        "websiteURL": "https://privatejetspecialist.com/",
+        "logo": "./assets/pjs-icon.svg",
+        "composerIcon": "./assets/pjs-icon.svg"
+      }
+    }
+  },
+  "repository": "https://github.com/privatejetspecialist/private-jet-specialist"
+}
