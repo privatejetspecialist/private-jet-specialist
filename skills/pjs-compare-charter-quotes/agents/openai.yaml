@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare Private Jet Quotes"
+  short_description: "Compare charter prices, terms, and aircraft fit"
+  default_prompt: "Use $pjs-compare-charter-quotes to compare these private jet options for my trip."
